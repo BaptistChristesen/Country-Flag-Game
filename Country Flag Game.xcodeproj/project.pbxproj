@@ -16,6 +16,7 @@
 		30719745296C72260072A035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719744296C72260072A035 /* ContentView.swift */; };
 		30719747296C72B20072A035 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719746296C72B20072A035 /* Question.swift */; };
 		30719749296DBB650072A035 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719748296DBB650072A035 /* CustomButton.swift */; };
+		3071974B296DBD600072A035 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071974A296DBD600072A035 /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		30719744296C72260072A035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Country Flag Game/views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		30719746296C72B20072A035 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		30719748296DBB650072A035 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3071974A296DBD600072A035 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				30719748296DBB650072A035 /* CustomButton.swift */,
+				3071974A296DBD600072A035 /* ProgressBar.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				30719749296DBB650072A035 /* CustomButton.swift in Sources */,
 				30719747296C72B20072A035 /* Question.swift in Sources */,
 				30719745296C72260072A035 /* ContentView.swift in Sources */,
+				3071974B296DBD600072A035 /* ProgressBar.swift in Sources */,
 				307196E1296C6DBE0072A035 /* Country_Flag_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
