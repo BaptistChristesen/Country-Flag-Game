@@ -15,6 +15,7 @@
 		307196FE296C6DC00072A035 /* Country_Flag_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307196FD296C6DC00072A035 /* Country_Flag_GameUITestsLaunchTests.swift */; };
 		30719745296C72260072A035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719744296C72260072A035 /* ContentView.swift */; };
 		30719747296C72B20072A035 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719746296C72B20072A035 /* Question.swift */; };
+		30719749296DBB650072A035 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719748296DBB650072A035 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		307196FD296C6DC00072A035 /* Country_Flag_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30719744296C72260072A035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Country Flag Game/views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		30719746296C72B20072A035 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		30719748296DBB650072A035 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		3071970B296C70F70072A035 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				30719748296DBB650072A035 /* CustomButton.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30719749296DBB650072A035 /* CustomButton.swift in Sources */,
 				30719747296C72B20072A035 /* Question.swift in Sources */,
 				30719745296C72260072A035 /* ContentView.swift in Sources */,
 				307196E1296C6DBE0072A035 /* Country_Flag_GameApp.swift in Sources */,
