@@ -11,7 +11,7 @@ struct AnswerRow: View {
     var answer: Answer
     @State private var isSelected = false
     var body: some View {
-        HStack(spacing 20){
+        HStack(spacing: 20){
             Image(systemName: "circle.fill")
                 .font(.caption)
             Text(answer.text)
