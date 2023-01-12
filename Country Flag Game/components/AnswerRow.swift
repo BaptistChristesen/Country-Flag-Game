@@ -30,7 +30,7 @@ struct AnswerRow: View {
         .shadow(color: isSelected ? (answer.isCorrect ? .green :.red) : .gray, radius: 5, x: 0.5, y: 0.5)
         .onTapGesture{
             if !quizManager.answerSelected{
-                isSelected= true
+                isSelected = true
                 quizManager.selectAnswer(answer: answer)
             }
         }
