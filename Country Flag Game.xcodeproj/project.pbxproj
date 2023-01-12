@@ -20,6 +20,7 @@
 		3071974D296DBF150072A035 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071974C296DBF150072A035 /* AnswerRow.swift */; };
 		3071974F296F0DCC0072A035 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071974E296F0DCC0072A035 /* QuestionView.swift */; };
 		30719751296F12780072A035 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719750296F12780072A035 /* Data.swift */; };
+		30719753296F12EF0072A035 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30719752296F12EF0072A035 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		3071974C296DBF150072A035 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		3071974E296F0DCC0072A035 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		30719750296F12780072A035 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		30719752296F12EF0072A035 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				30719746296C72B20072A035 /* Question.swift */,
 				30719750296F12780072A035 /* Data.swift */,
+				30719752296F12EF0072A035 /* QuizManager.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				30719747296C72B20072A035 /* Question.swift in Sources */,
 				30719745296C72260072A035 /* ContentView.swift in Sources */,
 				3071974F296F0DCC0072A035 /* QuestionView.swift in Sources */,
+				30719753296F12EF0072A035 /* QuizManager.swift in Sources */,
 				3071974B296DBD600072A035 /* ProgressBar.swift in Sources */,
 				3071974D296DBF150072A035 /* AnswerRow.swift in Sources */,
 				307196E1296C6DBE0072A035 /* Country_Flag_GameApp.swift in Sources */,
