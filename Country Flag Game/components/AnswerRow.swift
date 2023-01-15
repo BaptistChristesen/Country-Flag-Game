@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AnswerRow: View {
-    @EnviromentObject var quizManager: QuizManager
+    @EnvironmentObject var quizManager: QuizManager
     var answer: Answer
     @State private var isSelected = false
     var body: some View {
@@ -18,7 +18,7 @@ struct AnswerRow: View {
             Text(answer.text)
                 .font(.title)
             if isSelected{
-                    Spacer()
+                Spacer()
                 Image(systemName: answer.isCorrect ? "checkmark.circle.fill" : "x.circle.fill")
                     .foregroundColor(answer.isCorrect ? .green : .red)
             }
@@ -34,10 +34,6 @@ struct AnswerRow: View {
                 quizManager.selectAnswer(answer: answer)
             }
         }
-        {
-            isSelected = true
-        }
-
     }
 }
 

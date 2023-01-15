@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuestionView: View {
-    @EnviromentObject var quizManager: QuizManager
+    @EnvironmentObject var quizManager: QuizManager
     var body: some View {
         if quizManager.playingGame{
             VStack(spacing: 20){
@@ -18,7 +18,7 @@ struct QuestionView: View {
                         .font(.title)
                         .fontWeight(.heavy)
                     Spacer()
-                    Text("\(quizManager.index) out of \(quizManager.question.count)")
+                    Text("\(quizManager.index) out of \(quizManager.questions.count)")
                         .foregroundColor(.yellow)
                         .fontWeight(.heavy)
                 }
@@ -36,8 +36,7 @@ struct QuestionView: View {
                 }
                 Button{
                     quizManager.goToNextQuestion()
-                }
-            Label: {
+                } label: {
                 CustomButton(text: "Next", background: quizManager.answerSelected ? .yellow: .gray)
                 }
                 disabled(!quizManager.answerSelected)
@@ -53,10 +52,9 @@ struct QuestionView: View {
                     .font(.title)
                 Text("Congrats! you done!")
                 Text("Your Score was \(quizManager.score) out of \(quizManager.questions.count)")
-                Button{
+                Button {
                     quizManager.reset()
-                }
-            Label: {
+                } label: {
                 CustomButton(text: "Play Again")
             }
             }

@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 class QuizManager: ObservableObject{
     var questions = Data().questions
-    @Published private(set) var index = 9
+    @Published private(set) var index = 0
     @Published private(set) var playingGame = false
     @Published private(set) var answerSelected = false
     @Published private(set) var country = ""
