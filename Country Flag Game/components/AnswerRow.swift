@@ -37,6 +37,7 @@ struct AnswerRow: View {
     }
 }
 
+
 struct AnswerRow_Previews: PreviewProvider {
     static var previews: some View {
         AnswerRow(answer: Answer(text: "test", isCorrect: true))
