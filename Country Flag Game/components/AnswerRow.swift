@@ -24,10 +24,10 @@ struct AnswerRow: View {
             }
         }
         .padding()
-        .frame (maxWidth:.infinity, alignment: .leading)
+        .frame(width: 300, alignment: .leading)
         .background(.white)
         .cornerRadius(10)
-        .shadow(color: isSelected ? (answer.isCorrect ? .green :.red) : .gray, radius: 5, x: 0.5, y: 0.5)
+        .shadow(color: isSelected ? (answer.isCorrect ? .green : .red): .gray, radius: 5, x: 0.5, y: 0.5)
         .onTapGesture{
             if !quizManager.answerSelected{
                 isSelected = true
@@ -40,6 +40,6 @@ struct AnswerRow: View {
 
 struct AnswerRow_Previews: PreviewProvider {
     static var previews: some View {
-        AnswerRow(answer: Answer(text: "test", isCorrect: true))
+        AnswerRow(answer: Answer(text: "Test", isCorrect: true))
     }
 }

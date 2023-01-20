@@ -10,21 +10,20 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var quizManager = QuizManager()
     var body: some View {
-        NavigationView{
-            VStack(spacing: 40){
-                VStack(spacing: 40){
-                    Text ("Country Flag Game")
+        NavigationView {
+            VStack(spacing: 40) {
+                VStack(spacing: 20) {
+                    Text("Country Flag Game")
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.yellow)
-                    Text("ready to test your skilllz?")
+                    Text("Ready to test your skilz?")
                         .foregroundColor(.yellow)
                 }
                 NavigationLink {
                     QuestionView()
                         .environmentObject(quizManager)
-                }
-                label: {
+                } label: {
                     CustomButton(text: "Start")
                 }
             }

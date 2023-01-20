@@ -20,43 +20,40 @@ struct QuestionView: View {
                     Spacer()
                     Text("\(quizManager.index) out of \(quizManager.questions.count)")
                         .foregroundColor(.yellow)
-                        .fontWeight(.heavy)
                 }
                 ProgressBar(progress: quizManager.progress)
-                VStack(spacing: 20){
+                VStack(spacing: 10){
                     Text("Which country's flag is this?")
-                        .font(.title)
                     Image(quizManager.country)
                         .resizable()
                         .frame(width: 300, height: 200)
-                    ForEach(quizManager.answerChoices) {
-                        answer in AnswerRow(answer: answer)
+                    ForEach(quizManager.answerChoices){ answer in
+                        AnswerRow(answer: answer)
                             .environmentObject(quizManager)
                     }
                 }
                 Button{
                     quizManager.goToNextQuestion()
                 } label: {
-                CustomButton(text: "Next", background: quizManager.answerSelected ? .yellow: .gray)
+                    CustomButton(text: "Next", background: quizManager.answerSelected ? .yellow : .gray)
                 }
-                disabled(!quizManager.answerSelected)
+                .disabled(!quizManager.answerSelected)
                 Spacer()
             }
             .padding()
-            .frame(width: .infinity, height: .infinity)
             .background(.cyan)
         }
         else{
             VStack(spacing: 20){
                 Text("Country Flag Quiz")
                     .font(.title)
-                Text("Congrats! you done!")
-                Text("Your Score was \(quizManager.score) out of \(quizManager.questions.count)")
+                Text("Congrats! You done.")
+                Text("You scored \(quizManager.score) out of \(quizManager.questions.count)")
                 Button {
                     quizManager.reset()
                 } label: {
-                CustomButton(text: "Play Again")
-            }
+                    CustomButton(text: "Play Again")
+                }
             }
             .foregroundColor(.yellow)
             .padding()

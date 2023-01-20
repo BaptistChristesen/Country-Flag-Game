@@ -34,6 +34,5 @@ struct Data {
                 Answer(text: "Italy", isCorrect: false),
                 Answer(text: "Czech Republic", isCorrect: false)
            ])
- 
     ]
 }
