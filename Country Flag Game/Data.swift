@@ -10,7 +10,7 @@ struct Data {
     let questions = [
  //first 4
         Question(correctAnswer:
-                Answer(text: "Angolia", isCorrect: true),
+                Answer(text: "Angola", isCorrect: true),
               incorrectAnswers: [
                 Answer(text: "Austria", isCorrect: false),
                 Answer(text: "China", isCorrect: false),
@@ -20,7 +20,7 @@ struct Data {
         Question(correctAnswer:
                 Answer(text: "Austria", isCorrect: true),
               incorrectAnswers: [
-                Answer(text: "Angolia", isCorrect: false),
+                Answer(text: "Angola", isCorrect: false),
                 Answer(text: "China", isCorrect: false),
                 Answer(text: "England", isCorrect: false)
               ])
@@ -29,7 +29,7 @@ struct Data {
                 Answer(text: "China", isCorrect: true),
               incorrectAnswers: [
                 Answer(text: "Austria", isCorrect: false),
-                Answer(text: "Angolia", isCorrect: false),
+                Answer(text: "Angola", isCorrect: false),
                 Answer(text: "England", isCorrect: false)
               ])
         ,
@@ -38,7 +38,7 @@ struct Data {
               incorrectAnswers: [
                 Answer(text: "Austria", isCorrect: false),
                 Answer(text: "China", isCorrect: false),
-                Answer(text: "Angollia", isCorrect: false)
+                Answer(text: "Angola", isCorrect: false)
               ])
         ,
     //second 4
