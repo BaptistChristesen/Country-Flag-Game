@@ -74,4 +74,40 @@ struct Data {
             Answer(text: "Estonia", isCorrect: false)
           ])
     ,
+    //third 4
+    Question(correctAnswer:
+            Answer(text: "India", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Israel", isCorrect: false),
+            Answer(text: "Italy", isCorrect: false),
+            Answer(text: "Norway", isCorrect: false)
+          ])
+    ,
+    Question(correctAnswer:
+            Answer(text: "Israel", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "India", isCorrect: false),
+            Answer(text: "Italy", isCorrect: false),
+            Answer(text: "Norway", isCorrect: false)
+          ])
+    ,
+
+    Question(correctAnswer:
+            Answer(text: "Italy", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Israel", isCorrect: false),
+            Answer(text: "India", isCorrect: false),
+            Answer(text: "Norway", isCorrect: false)
+          ])
+    ,
+
+    Question(correctAnswer:
+            Answer(text: "Norway", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Israel", isCorrect: false),
+            Answer(text: "Italy", isCorrect: false),
+            Answer(text: "India", isCorrect: false)
+          ])
+    ,
+
 }
