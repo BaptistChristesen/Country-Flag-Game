@@ -174,4 +174,5 @@ struct Data {
             Answer(text: "Ukraine", isCorrect: false),
             Answer(text: "Spain", isCorrect: false)
           ])
+    ]
 }
