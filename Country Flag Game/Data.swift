@@ -109,5 +109,38 @@ struct Data {
             Answer(text: "India", isCorrect: false)
           ])
     ,
+//fourth 4
+    Question(correctAnswer:
+            Answer(text: "Pakistan", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Peru", isCorrect: false),
+            Answer(text: "Saudi Arabia", isCorrect: false),
+            Answer(text: "South Africa", isCorrect: false)
+          ])
+    ,
+    Question(correctAnswer:
+            Answer(text: "Peru", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Pakistan", isCorrect: false),
+            Answer(text: "Saudi Arabia", isCorrect: false),
+            Answer(text: "South Africa", isCorrect: false)
+          ])
+    ,
+    Question(correctAnswer:
+            Answer(text: "Saudi Arabia", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Peru", isCorrect: false),
+            Answer(text: "Pakistan", isCorrect: false),
+            Answer(text: "South Africa", isCorrect: false)
+          ])
+    ,
+    Question(correctAnswer:
+            Answer(text: "South Africa", isCorrect: true),
+          incorrectAnswers: [
+            Answer(text: "Peru", isCorrect: false),
+            Answer(text: "Saudi Arabia", isCorrect: false),
+            Answer(text: "Pakistan", isCorrect: false)
+          ])
+    ,
 
 }
