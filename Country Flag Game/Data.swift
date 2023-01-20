@@ -174,5 +174,46 @@ struct Data {
             Answer(text: "Ukraine", isCorrect: false),
             Answer(text: "Spain", isCorrect: false)
           ])
-    ]
+    ,
+    //extra 5
+        Question(correctAnswer:
+                Answer(text: "Japan", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "South Korea", isCorrect: false),
+                Answer(text: "Canada", isCorrect: false),
+                Answer(text: "Brazil", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "South Korea", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "Japan", isCorrect: false),
+                Answer(text: "Canada", isCorrect: false),
+                Answer(text: "Brazil", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "Canada", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "South Korea", isCorrect: false),
+                Answer(text: "Japan", isCorrect: false),
+                Answer(text: "Brazil", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "Brazil", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "South Korea", isCorrect: false),
+                Answer(text: "Canada", isCorrect: false),
+                Answer(text: "Albania", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "Albania", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "South Korea", isCorrect: false),
+                Answer(text: "Canada", isCorrect: false),
+                Answer(text: "Brazil", isCorrect: false)
+              ])
+        ]
 }
